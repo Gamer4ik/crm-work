@@ -1,0 +1,107 @@
+/*---------------------*/
+/*-------INDUSTRY------*/
+/*---------------------*/
+.industry
+  .container-fluid
+    .carousel
+      .carousel-control-prev,
+      .carousel-control-next
+        width: 10%
+        max-width: 10%
+      .carousel-control-prev-icon
+        width: 15px
+        height: 26px
+        background-image: url(img/prev.png)
+      .carousel-control-next-icon 
+        width: 15px
+        height: 26px
+        background-image: url(img/next.png)
+      .carousel-item
+        ul
+          margin-left: 10%
+          li
+            margin-left: 4%
+            font-size: 133.8%
+            font-weight: 300
+            a
+              color: $dark
+              transition: 0.2s
+            a:hover
+              color: $blue-color
+              text-decoration: underline
+          li:first-child
+            margin-left: 0   
+    .tab-content
+      margin-top: 107px
+      .tab-pane
+        .text-block
+          position: relative
+          h5
+            font-size: 174.4%
+            color: $dark
+          p
+            font-size: 137.5%
+            color: $dark
+        .text-block::before
+          content: ''
+          display: block
+          position: absolute
+          max-width: 459px
+          height: 2px
+          background-color: $blue-color
+          left: 31%
+          top: -45px
+          width: 100%
+        .text-block::after
+          content: ''
+          display: block
+          position: absolute
+          max-width: 459px
+          height: 2px
+          background-color: $blue-color
+          left: 31%
+          bottom: -45px
+          width: 100%
+        .item-block
+          margin-top: 97px
+          .user
+            border-bottom: 2px solid $blue-color
+            position: relative
+            margin-top: 60px
+            .img-block
+              position: absolute
+              top: 42px
+            .right
+              right: 65px
+            .left
+              left: 65px
+            img
+              max-width: 100%
+            h4
+              font-size: 188.3%
+              color: $blue-color
+            p
+              font-weight: 300
+              color: $dark
+              font-size: 112.6%
+            p.mid
+              font-size: 137.5%
+          .user:first-child
+            margin-top: 0
+    .crm-info
+      margin-top: 99px
+      position: relative
+      h6
+        font-size: 186.2%
+        color: $blue-color
+      .block
+        position: absolute
+        bottom: 0
+        right: 214px
+        a
+          font-size: 137.8%
+          color: #ffffff
+          background-color: $blue-color
+          padding: 3% 12% 3% 12%
+          border-radius: 10px
+          font-weight: 300
