@@ -533,7 +533,7 @@ body {
   border: 2px solid #1ea9f5;
   border-radius: 10px;
   width: 82%;
-  max-width: 82%;
+  max-width: 270px;
   padding-bottom: 77px;
 }
 .equip .container-fluid .row .col-md-4 .left-sidebar ul {
@@ -561,14 +561,6 @@ body {
 }
 .equip .container-fluid .row .main {
   margin-left: -72px;
-}
-.equip .container-fluid .row .main .img-block {
-  width: 100%;
-  max-width: 100%;
-}
-.equip .container-fluid .row .main .img-block img {
-  width: 100%;
-  max-width: 100%;
 }
 .equip .container-fluid .row .main p {
   font-weight: 300;
