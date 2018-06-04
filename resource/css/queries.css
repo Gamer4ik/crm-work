@@ -145,9 +145,6 @@
   .partner .container-fluid .item-block .item {
     display: initial;
   }
-}
-  
-@media screen and (max-width: 766px) {
   .partner .container-fluid .item-block .item .row {
     display: initial;
     text-align: center;
