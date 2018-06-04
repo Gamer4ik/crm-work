@@ -1,0 +1,40 @@
+/*------OUR-WORK------*/
+
+@media screen and (max-width: 420px) {
+  .our-work .container .about .item-block .item .block .row .left {
+    margin-left: 1rem !important;
+    margin-right: 0.8rem;
+  }
+}
+
+@media screen and (max-width: 460px) {
+  .our-work .container .about .item-block .item .block .row .left {
+    width: 100%;
+    margin-left: 0 !important;
+  }
+  .our-work .container .about .item-block .item .block .row .left img {
+    margin-left: 0 !important;
+  }
+  .our-work .container .about .item-block .item .block .row .right {
+    margin-right: 0 !important;
+  }
+ .our-work .container .about .item-block .item .block .row {
+    display: initial;
+    text-align: center;
+  }  
+}
+
+@media screen and (max-width: 840px) {
+  body {
+    font-size: 13px;
+  }
+}
+@media screen and (max-width: 740px) {
+  .our-work .container .about .modal .modal-dialog .modal-content .modal-body .container-fluid .img {
+    position: initial !important;
+    margin-bottom: 20px;
+  }
+  .our-work .container .about .modal .modal-dialog .modal-content .modal-body {
+    text-align: center;
+  }
+}

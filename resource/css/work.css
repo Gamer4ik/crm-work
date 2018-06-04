@@ -1,0 +1,65 @@
+/*----OUR-WORK----- */
+.our-work .container h1 {
+  font-size: 250%;
+  color: #1ea9f5;
+}
+.our-work .container .about .modal .modal-dialog {
+  max-width: 1034px;
+}
+.our-work .container .about .modal .modal-dialog .modal-content {
+  border: 5px solid #1ea9f5;
+}
+.our-work .container .about .modal .modal-dialog .modal-content .modal-header {
+  border: 0;
+}
+.our-work .container .about .modal .modal-dialog .modal-content .modal-header button {
+  padding: 0;
+  width: 43px;
+  height: 42px;
+  background-color: #1ea9f5;
+  color: #ffffff;
+  border-radius: 50%;
+}
+.our-work .container .about .modal .modal-dialog .modal-content .modal-body .container-fluid {
+  color: #000000;
+}
+.our-work .container .about .modal .modal-dialog .modal-content .modal-body .container-fluid .img {
+  position: absolute;
+  right: 115px;
+}
+.our-work .container .about .modal .modal-dialog .modal-content .modal-body .container-fluid h6 {
+  font-size: 155%;
+  font-weight: 700;
+}
+.our-work .container .about .modal .modal-dialog .modal-content .modal-body .container-fluid p {
+  font-size: 112.8%;
+  font-weight: 300;
+}
+.our-work .container .about .item-block .item {
+  margin-top: 80px;
+}
+.our-work .container .about .item-block .item .block {
+  border: 3px solid #1ea9f5;
+  border-radius: 12px;
+}
+.our-work .container .about .item-block .item .block .row {
+  flex-wrap: nowrap;
+}
+.our-work .container .about .item-block .item .block .row a {
+  font-size: 107%;
+  text-decoration: underline;
+}
+.our-work .container .about .item-block .item .block .row h6 {
+  font-size: 141.3%;
+  text-transform: uppercase;
+}
+.our-work .container .about .item-block .item .block .row p {
+  font-size: 107%;
+  font-weight: 300;
+}
+.our-work .container .about .item-block .item .block .row .left {
+  width: 33%;
+}
+.our-work .container .about .item-block .item .block .row .left .right {
+  width: 42%;
+}
