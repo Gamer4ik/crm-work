@@ -141,7 +141,7 @@
     margin-left: 8% !important; 
   }
 }
-@media screen and (max-width: 808px) { 
+@media screen and (max-width: 810px) { 
   .partner .container-fluid .item-block .item {
     display: initial;
   }
