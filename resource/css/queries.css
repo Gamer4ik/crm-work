@@ -95,9 +95,12 @@
   .ip .choose .container-fluid h3::before {
     margin-left: -22%;
   }
-  
+}
 
-  
+@media screen and (max-width: 420px) {
+  .ip .provide .container .mobile-block ul .blue {
+    text-align: left !important;
+  }
 }
 
 @media screen and (max-width: 400px) {
