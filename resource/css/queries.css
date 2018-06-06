@@ -36,7 +36,7 @@
   body {
     font-size: 13px;
 }
-
+}
 
 @media screen and (max-width: 800px) {
  .ip .container-fluid .description p::before {
@@ -349,7 +349,11 @@
 /*---------------------*/
 /*-------CALL-CENTR------*/
 /*---------------------*/
-
+@media screen and (max-width: 999px) {
+.service .container .row .right-block .items-block .items .row p {
+  font-size: 14px;  
+  }  
+}
 @media screen and (max-width: 770px) {
   body {
     overflow-x: hidden;
